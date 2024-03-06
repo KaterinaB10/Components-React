@@ -1,5 +1,6 @@
 import { Warning } from "./components/Warning";
 import { Success } from "./components/Success";
+import { Info } from "./components/Info";
 import "./index.css";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <main className="main">
         <Warning />
         <Success title="Success" subtitle="Here can be a success message" />
+        <Info title="Info" subtitle="Here can be an info message" />
       </main>
 
       <footer className="footer">
