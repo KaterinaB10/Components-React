@@ -1,0 +1,42 @@
+/* font-family: "Urbanist", sans-serif; */
+
+.warning-message {
+  margin: 1em;
+  padding: 0.5em 1em;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-left: 5px solid red;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.132);
+}
+
+.message-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message {
+  text-align: left;
+  margin-left: 0.5em;
+}
+
+/* Typography */
+
+h1,
+p {
+  margin: 0;
+  font-family: "Urbanist", sans-serif;
+}
+
+h1 {
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+p {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: rgb(135, 135, 135);
+}

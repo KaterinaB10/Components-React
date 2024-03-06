@@ -1,3 +1,4 @@
+import { Warning } from "./components/Warning";
 import "./index.css";
 
 function App() {
@@ -7,7 +8,9 @@ function App() {
         <h1>Components</h1>
       </header>
 
-      <main></main>
+      <main className="main">
+        <Warning />
+      </main>
 
       <footer className="footer">
         <p>Made by Katerina</p>
