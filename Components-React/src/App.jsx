@@ -2,6 +2,7 @@ import { Warning } from "./components/Warning";
 import { Success } from "./components/Success";
 import { Info } from "./components/Info";
 import { Button } from "./components/Delete";
+import { PopUpMessage } from "./components/PopUpMessage";
 import "./index.css";
 
 function App() {
@@ -18,7 +19,13 @@ function App() {
           <Info title="Info" subtitle="Here can be an info message" />
         </section>
         <section className="button">
-          <Button btnName="Delete" />
+          <Button
+            btnName="Delete"
+            title="Delete message"
+            subtitle="Are you sure you want to delete this message?"
+            nameBtnLeft="Yes, delete"
+            nameBtnRight="No, leave message"
+          />
         </section>
       </main>
 

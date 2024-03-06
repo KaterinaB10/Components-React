@@ -28,3 +28,7 @@ body {
 .warning-messages {
   width: 30%;
 }
+
+section .button {
+  position: relative;
+}

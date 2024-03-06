@@ -6,7 +6,7 @@
 }
 
 .btn-container {
-  margin: 0 5em;
+  margin: 0 10em;
 }
 
 .btn {
@@ -16,6 +16,7 @@
   border: none;
   background-color: rgb(99, 99, 240);
   color: #fff;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.132);
 }
 
 /* Typography */

@@ -1,0 +1,57 @@
+.pop-up-message-container {
+  width: 300px;
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.132);
+  background-color: #fff;
+  border-radius: 7px;
+}
+
+.pop-up-message-container {
+  position: absolute;
+  top: 30%;
+  left: 32.5%;
+  display: block;
+}
+
+/* .hide {
+  display: none;
+} */
+
+.pop-up-message-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.btn {
+  margin: 0em 0.3em;
+  box-shadow: none;
+}
+
+/* Typography */
+
+h1,
+p {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+p {
+  font-size: 1rem;
+  text-wrap: wrap;
+}
+
+.btn {
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.no-accent {
+  background-color: #c1b9b9;
+}
