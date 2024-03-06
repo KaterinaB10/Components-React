@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.header {
+  background-color: #ffd073;
+}
+
+.footer {
+  background-color: #ffd073;
+}
+
+.question {
+  display: flex;
+}
