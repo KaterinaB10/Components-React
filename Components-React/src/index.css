@@ -20,8 +20,9 @@ body {
   background-color: #ffd073;
 }
 
-main {
+.main {
   background-color: rgb(218, 218, 218);
+  display: flex;
 }
 
 .warning-messages {

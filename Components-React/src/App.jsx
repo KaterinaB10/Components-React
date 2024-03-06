@@ -1,6 +1,7 @@
 import { Warning } from "./components/Warning";
 import { Success } from "./components/Success";
 import { Info } from "./components/Info";
+import { Button } from "./components/Delete";
 import "./index.css";
 
 function App() {
@@ -11,11 +12,14 @@ function App() {
       </header>
 
       <main className="main">
-        <div className="warning-messages">
+        <section className="warning-messages">
           <Warning />
           <Success title="Success" subtitle="Here can be a success message" />
           <Info title="Info" subtitle="Here can be an info message" />
-        </div>
+        </section>
+        <section className="button">
+          <Button btnName="Delete" />
+        </section>
       </main>
 
       <footer className="footer">

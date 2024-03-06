@@ -1,0 +1,28 @@
+.btn-section {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-container {
+  margin: 0 5em;
+}
+
+.btn {
+  margin: 1em;
+  padding: 0.5em 1em;
+  border-radius: 7px;
+  border: none;
+  background-color: rgb(99, 99, 240);
+  color: #fff;
+}
+
+/* Typography */
+
+.btn {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
