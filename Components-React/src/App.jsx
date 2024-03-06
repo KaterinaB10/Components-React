@@ -11,9 +11,11 @@ function App() {
       </header>
 
       <main className="main">
-        <Warning />
-        <Success title="Success" subtitle="Here can be a success message" />
-        <Info title="Info" subtitle="Here can be an info message" />
+        <div className="warning-messages">
+          <Warning />
+          <Success title="Success" subtitle="Here can be a success message" />
+          <Info title="Info" subtitle="Here can be an info message" />
+        </div>
       </main>
 
       <footer className="footer">
