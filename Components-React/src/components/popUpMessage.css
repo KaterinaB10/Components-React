@@ -15,12 +15,7 @@
   position: absolute;
   top: 30%;
   left: 32.5%;
-  display: block;
 }
-
-/* .hide {
-  display: none;
-} */
 
 .pop-up-message-text {
   display: flex;
@@ -29,6 +24,7 @@
 }
 
 .btn {
+  background-color: rgb(99, 99, 240);
   margin: 0em 0.3em;
   box-shadow: none;
 }
@@ -54,4 +50,8 @@ p {
 
 .no-accent {
   background-color: #c1b9b9;
+}
+
+.no-accent:hover {
+  background-color: rgb(99, 99, 240);
 }

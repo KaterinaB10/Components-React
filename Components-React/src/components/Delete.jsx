@@ -1,25 +1,33 @@
 import "./delete.css";
 import "./popUpMessage.css";
 import { PopUpMessage } from "./PopUpMessage";
-// import { showPopUp } from "./showPopUp.js";
+import { useState } from "react";
 
 export function Button(props) {
-  // const openClick = () => {
-  //   console.log("clicked");
-  // };
+  const [deleteButton, setDeleteButton] = useState(false);
 
   return (
     <section className="btn-section">
       <div className="btn-container">
-        <button className="btn">{props.btnName}</button>
-        <PopUpMessage trigger={true}>
+        <button onClick={() => setDeleteButton(true)} className="btn">
+          {props.btnName}
+        </button>
+
+        <PopUpMessage trigger={deleteButton}>
           <div className="pop-up-message-text">
             <h1>{props.title}</h1>
             <p>{props.subtitle}</p>
           </div>
           <div className="pop-up-message-buttons">
-            <button className="btn no-accent">{props.nameBtnLeft}</button>
-            <button className="btn">{props.nameBtnRight}</button>
+            <button
+              onClick={() => setDeleteButton(false)}
+              className="btn no-accent"
+            >
+              {props.nameBtnLeft}
+            </button>
+            <button onClick={() => setDeleteButton(false)} className="btn">
+              {props.nameBtnRight}
+            </button>
           </div>
         </PopUpMessage>
       </div>
