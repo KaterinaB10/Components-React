@@ -1,6 +1,6 @@
 import "./delete.css";
 import "./popUpMessage.css";
-import { PopUpMessage } from "./PopUpMessage";
+import { PopUpMessage } from "../pop-up-button/PopUpMessage";
 import { useState } from "react";
 
 export function Button(props) {
