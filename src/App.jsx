@@ -1,13 +1,15 @@
+import "./App.css";
+
 import { Warning } from "./components/warnings/Warning";
 import { Success } from "./components/warnings/Success";
 import { Info } from "./components/warnings/Info";
 import { Button } from "./components/pop-up-button/Delete";
-import Style from "./index.css";
+import { GridHeader } from "./components/grid-header/GridHeader";
 
 function App() {
   return (
     <>
-      <header className={Style.header}>
+      <header className="header">
         <h1>Components</h1>
       </header>
 
@@ -26,8 +28,9 @@ function App() {
             nameBtnRight="No, leave message"
           />
         </section>
-        <br />
-        <section></section>
+        <section className="grid">
+          <GridHeader />
+        </section>
       </main>
 
       <footer className="footer">

@@ -1,15 +1,14 @@
 import "./gridHeader.css";
 
-export function GridHeder() {
+export function GridHeader() {
   return (
-    <div className="card-image-content-container">
-      <div className="image-container one"></div>
-      <div className="image-container two"></div>
-      <div className="image-container three"></div>
-      <div className="image-container four"></div>
-      <div className="image-container five"></div>
-      <div className="image-container six"></div>
-      <div className="image-container seven"></div>
+    <div className="grid-wrapper">
+      <div className="grid-box first">A</div>
+      <div className="grid-box second">B</div>
+      <div className="grid-box third">C</div>
+      <div className="grid-box forth">D</div>
+      <div className="grid-box fifth">E</div>
+      <div className="grid-box sixth">F</div>
     </div>
   );
 }

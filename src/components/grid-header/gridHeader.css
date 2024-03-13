@@ -1,0 +1,40 @@
+.grid-wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template: 100px 100px / 100px 100px 200px 100px;
+}
+
+.grid-box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.first {
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+.second {
+  grid-column: 3;
+  grid-row: 1 / 3;
+}
+.third {
+  grid-column: 1;
+  grid-row: 2;
+}
+.forth {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.fifth {
+  grid-column: 4;
+  grid-row: 1;
+}
+
+.sixth {
+  grid-column: 4;
+  grid-row: 2;
+}
