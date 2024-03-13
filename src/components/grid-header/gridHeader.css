@@ -1,0 +1,13 @@
+.card-image-content-container img {
+  max-width: 200px;
+}
+
+.card-image-content-container {
+  width: 40%;
+  display: grid;
+  grid-template: 200px / auto auto auto auto;
+}
+
+.one card-img {
+  grid-column: 1 / 3;
+}

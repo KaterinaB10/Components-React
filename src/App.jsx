@@ -1,14 +1,14 @@
 import { Warning } from "./components/warnings/Warning";
 import { Success } from "./components/warnings/Success";
 import { Info } from "./components/warnings/Info";
-import { Button } from "./components/warnings/Delete";
-import "./index.css";
-import { BrowserRouter, Routes, Route } from "react";
+import { Button } from "./components/pop-up-button/Delete";
+import { GridHeder } from "./components/grid-header/GridHeader";
+import Style from "./index.css";
 
 function App() {
   return (
     <>
-      <header className="header">
+      <header className={Style.header}>
         <h1>Components</h1>
       </header>
 
@@ -26,6 +26,10 @@ function App() {
             nameBtnLeft="Yes, delete"
             nameBtnRight="No, leave message"
           />
+        </section>
+        <br />
+        <section>
+          <GridHeder />
         </section>
       </main>
 
