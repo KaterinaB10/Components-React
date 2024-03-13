@@ -2,7 +2,6 @@ import { Warning } from "./components/warnings/Warning";
 import { Success } from "./components/warnings/Success";
 import { Info } from "./components/warnings/Info";
 import { Button } from "./components/pop-up-button/Delete";
-import { GridHeder } from "./components/grid-header/GridHeader";
 import Style from "./index.css";
 
 function App() {
@@ -28,9 +27,7 @@ function App() {
           />
         </section>
         <br />
-        <section>
-          <GridHeder />
-        </section>
+        <section></section>
       </main>
 
       <footer className="footer">
