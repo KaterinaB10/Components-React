@@ -1,0 +1,9 @@
+.tooltip-text {
+  width: 300px;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  padding: 1em;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+}

@@ -5,7 +5,7 @@ import { Success } from "./components/warnings/Success";
 import { Info } from "./components/warnings/Info";
 import { Button } from "./components/pop-up-button/Delete";
 import { GridHeader } from "./components/grid-header/GridHeader";
-import { BtnWithTooltip } from "./components/tooltip/ButtonWithTooltip";
+import { Tooltip } from "./components/tooltip/Tooltip";
 
 function App() {
   return (
@@ -32,8 +32,11 @@ function App() {
         <section className="grid">
           <GridHeader />
         </section>
-        <section>
-          <BtnWithTooltip />
+        <section className="tooltip">
+          <Tooltip
+            text="Click here to navigate to your profile page, where you can
+            view and manage your account details, preferences, and activities"
+          ></Tooltip>
         </section>
       </main>
 
