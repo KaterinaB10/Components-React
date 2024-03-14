@@ -5,6 +5,7 @@ import { Success } from "./components/warnings/Success";
 import { Info } from "./components/warnings/Info";
 import { Button } from "./components/pop-up-button/Delete";
 import { GridHeader } from "./components/grid-header/GridHeader";
+import { BtnWithTooltip } from "./components/tooltip/ButtonWithTooltip";
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
         </section>
         <section className="grid">
           <GridHeader />
+        </section>
+        <section>
+          <BtnWithTooltip />
         </section>
       </main>
 
